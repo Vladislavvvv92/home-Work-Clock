@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+    pading: 0px;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background: antiquewhite;
+}
+
+.container__time{
+    display: flex;
+    border-radius: 35px 35px 35px 35px;
+    -moz-border-radius: 35px 35px 35px 35px;
+    -webkit-border-radius: 35px 35px 35px 35px;
+    color: grey;
+    background: linear-gradient(to right, rgba(235,233,249,1) 0%, rgba(206,199,236,1) 51%, rgba(193,191,234,1) 100%);
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 110px;
+}
+
+.elem{
+    font-size: 100px;
+}
