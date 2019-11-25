@@ -31,4 +31,4 @@ function time() {
 
 }
 
-setInterval(time, 1000);
+setTimeout(function (){setInterval(time, 1000)}, 4000);
