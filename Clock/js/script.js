@@ -1,9 +1,11 @@
-let hourForm = document.getElementById('hour')
-let minuteForm = document.getElementById('minute')
-let secondForm = document.getElementById('second')
+let hourForm = document.getElementById('hour');
+let minuteForm = document.getElementById('minute');
+let secondForm = document.getElementById('second');
 
 function time() {
+
     const time = new Date();
+
     let hour = time.getHours();
     let minute = time.getMinutes();
     let second = time.getSeconds();
@@ -24,11 +26,13 @@ function time() {
         (second = "0" + second)
     }
 
-    hourForm.innerHTML = hour+':';
-    minuteForm.innerHTML = minute+':';
+    hourForm.innerHTML = hour + ':';
+    minuteForm.innerHTML = minute + ':';
     secondForm.innerHTML = second;
     console.log(hour + ":" + minute + ":" + second);
 
 }
 
-setTimeout(function (){setInterval(time, 1000)}, 4000);
+setTimeout(function () {
+    setInterval(time, 1000)
+}, 4000);
