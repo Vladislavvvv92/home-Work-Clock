@@ -9,6 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     background: antiquewhite;
+
 }
 
 .container__time{
@@ -23,6 +24,10 @@ body{
     width: 45%;
     height: 110px;
     font-size: 100px;
+    box-shadow: 14px 14px 14px -10px rgba(90,74,74,0.81);
+    -webkit-box-shadow: 14px 14px 14px -10px rgba(90,74,74,0.81);
+    -moz-box-shadow: 14px 14px 14px -10px rgba(90,74,74,0.81);
+    
 }
 
 .elem{

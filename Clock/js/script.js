@@ -12,7 +12,6 @@ function time() {
     minute = minute.toString();
     second = second.toString();
 
-
     if (hour.length === 1) {
         (hour = "0" + hour)
     }
@@ -24,7 +23,7 @@ function time() {
         (second = "0" + second)
     }
 
-    hourForm.innerHTML = hour + ':'+minute+":"+second;
+    hourForm.innerHTML = hour + ":" + minute + ":" + second;
 
     console.log(hour + ":" + minute + ":" + second);
 
