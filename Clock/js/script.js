@@ -1,6 +1,4 @@
 let hourForm = document.getElementById('hour');
-let minuteForm = document.getElementById('minute');
-let secondForm = document.getElementById('second');
 
 function time() {
 
@@ -26,9 +24,8 @@ function time() {
         (second = "0" + second)
     }
 
-    hourForm.innerHTML = hour + ':';
-    minuteForm.innerHTML = minute + ':';
-    secondForm.innerHTML = second;
+    hourForm.innerHTML = hour + ':'+minute+":"+second;
+
     console.log(hour + ":" + minute + ":" + second);
 
 }
